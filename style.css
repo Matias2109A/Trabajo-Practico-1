@@ -10,20 +10,64 @@
     --orange: #ff9f1c;
 }
 
+body {
+    margin: 0px;
+    width: 0 auto;
+}
+
 .nav {
     display: flex;
     align-items: center;
-    width: 100%;
     justify-content: space-between;
+    max-height: 5rem;
+    margin: 1.5rem 4rem 1.5rem 4rem;
 }
 
 .nav-logo-text {
     font-family: "Inter";
     font-size: 2rem;
+    color: var(--dark-blue);
 }
 
-.nav-logo {
+nav ul a {
+    justify-content: space-between;
+    padding: 1.3rem;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--text-gray);
+}
+
+.nav-rightside {
+    justify-content: space-between;
     display: flex;
-    text-align: center;
-    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-icon {
+    color: var(--text-gray);
+
+}
+
+.nav-icon i {
+    font-size: 1.5rem;
+}
+
+.btn-login {
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: var(--main-blue);
+    color: var(--text-gray);
+    border-radius: 8px;
+    border-color: var(--main-blue);
+
+}
+
+.btn-login a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 16px;
 }
