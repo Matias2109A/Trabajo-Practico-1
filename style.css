@@ -1,0 +1,29 @@
+:root {
+    --main-blue: #2F6BFF;
+    --dark-blue: #0F2A44;
+    --mid-blue: #4a8dff;
+
+    --bg-gray: #d9e1ec;
+    --text-gray: #1f2937;
+    --sec-text-gray: #6b7280;
+
+    --orange: #ff9f1c;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-logo-text {
+    font-family: "Inter";
+    font-size: 2rem;
+}
+
+.nav-logo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
