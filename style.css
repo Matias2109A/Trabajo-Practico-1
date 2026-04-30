@@ -625,6 +625,8 @@ footer {
     background-color: var(--main-blue);
     border: none;
     border-radius: 7px;
+    cursor: pointer;
+    transition: all .3s ease;
 }
 
 .btn-hero a {
@@ -635,4 +637,64 @@ footer {
     font-family: "Inter";
     font-weight: 600;
     font-size: 16px;
+}
+
+.btn-hero:hover {
+    background-color: var(--dark-blue);
+}
+
+.flexbox-imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2rem auto;
+    height: 450px;
+    gap: 10px;
+    overflow: hidden;
+    max-width: 90vw;
+}
+
+.img-fb-ind {
+    width: 200px;
+    transition: all 0.7s cubic-bezier(0.25, 1, 0.5, 1);
+    min-width: 30px;
+    flex: 1;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.img-fb-ind:hover {
+    flex: 10;
+}
+
+.hero-viaje-paris {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, .9) 0%,rgba(255, 255, 255, .5)25%,rgba(255, 255, 255, .5) 35%, rgba(255, 255, 255, 0)50%), url(imagenes/imagenes_main/paris.jpg);
+    width: 100%;
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: "Inter";
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.txt-imgs {
+    color: var(--text-gray);
+    font-family: "Inter";
+    font-size: 26px;
+    margin-left: 5rem;
+    margin-top: 1.5rem;
+}
+
+.inicio-main {
+    color: var(--main-blue);
+    text-decoration: underline;
+}
+
+.dest-sec {
+    color: var(--main-blue);
+    text-decoration: underline;
 }
