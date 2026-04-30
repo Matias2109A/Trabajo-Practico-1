@@ -552,3 +552,50 @@ nav ul a {
 .txt-der h2 {
     margin-bottom: .3rem;
 }
+
+footer {
+    background-color: #032958;
+    padding: 1rem 4rem .1rem 5rem;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 4rem 1rem 5rem;
+}
+
+.column1, .column2, .column3, .column4 {
+    font-family: "Inter";
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.cabecera {
+    font-weight: 600;
+}
+
+.licence {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter";
+}
+
+.linea-hr {
+    width: 100%;
+    height: 1px;
+    background-color: #053875; 
+}
+
+.column1 a {
+    color: #fff;
+    font-size: 32px;
+    padding-right: 1.5rem;
+}
+
+.logo-footer {
+    font-size: 36px;
+}
