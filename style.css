@@ -362,32 +362,28 @@ nav ul a {
 
 /* pre footer */
 .img-pre-footer {
-    background-color: var(--main-blue);
+   background-color: var(--main-blue);
     width: 100%;
-    height: 16vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    min-height: 16vh; 
     font-family: "Inter";
     font-size: 1rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row; 
+    justify-content: space-around; 
+    align-items: center; 
+    padding: 2rem 0; 
+    box-sizing: border-box;
 }
 
 .box-sub {
-    margin-left: 100px;
-    margin-top: 40px;
-    background-color: #f4f8fb;
+   background-color: #f4f8fb;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-    align-items: left;
     width: calc(100% - 140px); 
     max-width: 400px;
-    margin-bottom: 20px;
     padding: 10px 10px 10px 20px;
     display: flex;
     align-items: center;
-    justify-content: end;
 }
 
 
@@ -439,19 +435,14 @@ nav ul a {
 }
 
 .box-btn-sub {
-    margin-left: 68%;
-    width: 100%;
-    background-color: #f4f8fb;
+   background-color: #f4f8fb;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
     width: calc(100% - 140px); 
     max-width: 400px;
-    margin-top: -90px; 
-    margin-bottom: 20px;
     padding: 10px 10px 10px 20px;
     display: flex;
     align-items: center;
-    justify-content: end;
 }
 
 .btn-sub-container {
@@ -496,6 +487,10 @@ nav ul a {
     display: flex;
     align-items: center;
     gap: 8px;
+}
+
+.subscripcion:hover {
+    background-color: #865510;
 }
 
 /* tarjetas destinos */
