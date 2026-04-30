@@ -362,7 +362,7 @@ nav ul a {
 
 /* pre footer */
 .img-pre-footer {
-    background-color: #1b5cff;
+    background-color: var(--main-blue);
     width: 100%;
     height: 16vh;
     background-repeat: no-repeat;
