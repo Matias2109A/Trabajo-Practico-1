@@ -61,8 +61,12 @@ nav ul a {
     color: var(--text-gray);
     border-radius: 8px;
     border-color: var(--main-blue);
-
 }
+
+.btn-login:hover {
+    background-color: var(--dark-blue); 
+}
+
 
 .btn-login a {
     text-decoration: none;
@@ -71,6 +75,7 @@ nav ul a {
     font-weight: 500;
     font-size: 16px;
 }
+
 
 .img-hero {
     background-image: url(imagenes/imagenes\ main/Grecia.jpg);
@@ -107,4 +112,84 @@ nav ul a {
     margin-bottom: 0px;
     font-size: 1rem;
     line-height: 1.5 
+}
+
+.search-box, .info-box {
+    margin-left: 100px; 
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    width: calc(100% - 140px); 
+    max-width: 1000px;
+}
+
+.search-box {
+    margin-top: 50px; 
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 20px;
+}
+
+.info-box {
+    max-width: 900px;
+    padding: 15px 20px;
+}
+
+.search-item, .info-item {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding: 10px;
+}
+
+.icon {
+    font-size: 1.5rem;
+    color: var(--main-blue); 
+    margin-right: 15px;
+    min-width: 25px;
+    text-align: center;
+}
+
+.item-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-text strong {
+    font-size: 0.9rem;
+    color: var(--text-gray);
+    margin-bottom: 2px;
+}
+
+.item-text span {
+    font-size: 0.85rem;
+    color: var(--sec-text-gray); 
+}
+
+.linea-vertical {
+    width: 1px;
+    height: 40px;
+    background-color: var(--bg-gray); 
+    margin: 0 10px;
+}
+
+.btn-buscar {
+    background-color: var(--main-blue); 
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-buscar:hover {
+    background-color: var(--dark-blue); 
 }
