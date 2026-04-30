@@ -636,3 +636,227 @@ footer {
     font-weight: 600;
     font-size: 16px;
 }
+
+
+/*cancun*/
+.detalle-paquete-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; 
+    margin: 4rem auto;
+    padding: 3rem;
+    max-width: 1100px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    gap: 3rem; 
+    font-family: "Inter", sans-serif;
+}
+
+.columna-izquierda, .columna-derecha {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+}
+
+.linea-divisoria {
+    width: 2px;
+    background-color: var(--bg-gray); 
+    border-radius: 2px;
+}
+
+
+.detalle-paquete-container h3 {
+    color: var(--main-blue);
+    font-size: 1.8rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.detalle-paquete-container h4 {
+    color: var(--dark-blue);
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.detalle-paquete-container p {
+    color: var(--sec-text-gray);
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+    font-size: 16px;
+}
+
+.txt-cierre {
+    color: var(--dark-blue) !important;
+    font-size: 1.1rem !important;
+    margin-top: 1rem;
+}
+
+.lista-experiencia {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-experiencia li {
+    margin-bottom: 1.2rem;
+    color: var(--sec-text-gray);
+    line-height: 1.6;
+    position: relative;
+    padding-left: 2rem;
+}
+
+.lista-experiencia li::before { 
+    font-family: "Font Awesome 6 Free";
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--main-blue);
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+
+.lista-experiencia strong {
+    color: var(--text-gray);
+}
+
+.btn-reservar-promo {
+    background-color: var(--orange);
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: auto; 
+    align-self: flex-start; 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-reservar-promo:hover {
+    background-color: #e68a00; 
+}
+
+.extras-columna-izq {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.titulo-extras {
+    color: var(--dark-blue);
+    font-size: 1.1rem;
+    margin: 0 0 -0.5rem 0;
+    font-family: "Inter", sans-serif;
+}
+
+.datos-utiles-tabla {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px;
+}
+
+.dato-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: #f4f8fb;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid var(--bg-gray);
+}
+
+.dato-item i {
+    font-size: 1.5rem;
+    color: var(--main-blue);
+    min-width: 25px;
+    text-align: center;
+}
+
+.dato-item div {
+    display: flex;
+    flex-direction: column;
+}
+
+.dato-item strong {
+    font-size: 0.85rem;
+    color: var(--text-gray);
+    font-family: "Inter", sans-serif;
+}
+
+.dato-item span {
+    font-size: 0.8rem;
+    color: var(--sec-text-gray);
+    font-family: "Inter", sans-serif;
+}
+
+.reseñas-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--bg-gray); 
+    margin-top: 0.5rem;
+}
+
+.estrellas {
+    color: var(--orange); 
+    font-size: 1.1rem;
+    display: flex;
+    gap: 2px;
+}
+
+.texto-proof {
+    font-size: 0.85rem;
+    color: var(--sec-text-gray);
+    font-family: "Inter", sans-serif;
+    line-height: 1.4;
+}
+
+.texto-proof strong {
+    color: var(--dark-blue);
+    font-size: 0.95rem;
+}
+
+.sello-garantia {
+    color: var(--main-blue);
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 3px;
+}
+
+.beneficios-burbujas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 0,5rem;
+}
+
+.burbuja {
+    background-color: #f0f5ff; 
+    color: var(--main-blue); 
+    border: 1px solid var(--bg-gray);
+    padding: 6px 14px;
+    border-radius: 20px; 
+    font-size: 0.85rem;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.2s ease;
+}
+
+.burbuja:hover {
+    background-color: var(--main-blue);
+    color: #ffffff;
+    border-color: var(--main-blue);
+    cursor: default;
+}
