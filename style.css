@@ -215,6 +215,14 @@ nav ul a {
     font-weight: 600;
     padding: .6rem 1.2rem .6rem 1.2rem;
     border-radius: 7px;
+    cursor: pointer;
+    transition: .2s ease all;
+}
+
+.btn-vermas:hover {
+    background-color: #6b7280;
+    border-color: #0F2A44;
+    color: #0F2A44;
 }
 
 .pre-destinos {
@@ -227,17 +235,20 @@ nav ul a {
 
 .destinos {
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
+    margin: auto 4rem auto 5rem
 }
 
 .dest-card {
     max-width: 40%;
     border-style: solid;
-    border-color: var(--sec-text-gray);
+    border-width: 1px;
+    border-color: #a7a7a7;
     border-radius: 20px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    overflow: hidden;
     
 }
 
@@ -248,11 +259,76 @@ nav ul a {
     
 }
 
+.txt-dest-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding-bottom: 1rem;
+}
+
 .txt-izq {
     display: flex;
-    align-items: center;
-    justify-content: left;
+    flex-direction: column;
+    flex: 1;
+    max-width: 55%;
+    justify-content: flex-start;
     font-family: "Inter";
-    color: var(--text-gray);
+    color: var(--sec-text-gray);
+    font-size: 16px;
+    padding-left: 2rem;
+}
 
+.txt-der {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    text-align: right;
+    align-items: flex-end;
+    font-family: "Inter";
+    color: var(--sec-text-gray);
+    padding-right: 2rem;
+    font-size: 16px;
+}
+
+.btn-detalles{
+    background-color: var(--main-blue);
+    font-family: "Inter";
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    padding: .6rem 1.2rem .6rem 1.2rem;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: .2s ease all;
+    border: none;
+    margin-top: .5rem;
+}
+
+.btn-detalles:hover {
+    background-color: #0F2A44;
+}
+
+.usds {
+    color: var(--main-blue);
+}
+
+.lugar {
+    color: var(--text-gray);
+}
+
+.txt-izq p{
+    margin-bottom:.3rem;
+}
+
+.txt-izq h2{
+    margin-bottom: .3rem;
+}
+
+.txt-der p {
+    margin-bottom: .3rem;
+}
+
+.txt-der h2 {
+    margin-bottom: .3rem;
 }
