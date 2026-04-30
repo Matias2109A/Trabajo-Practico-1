@@ -10,6 +10,10 @@
     --orange: #ff9f1c;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0px;
     width: 0 auto;
