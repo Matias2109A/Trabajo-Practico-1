@@ -76,6 +76,7 @@ nav ul a {
     font-size: 16px;
 }
 
+
 /* inicio */
 .img-hero {
     background-image: linear-gradient(to right, rgba(255, 255, 255, .9) 0%,rgba(255, 255, 255, .5)25%,rgba(255, 255, 255, .5) 35%, rgba(255, 255, 255, 0)50%), url(imagenes/imagenes_main/grecia-santorini.jpg);
@@ -118,6 +119,7 @@ nav ul a {
     font-size: 1rem;
     line-height: 1.5 
 }
+
 
 /* Cajas de info y busqueda*/
 .search-box, .info-box {
@@ -199,6 +201,7 @@ nav ul a {
 .btn-buscar:hover {
     background-color: var(--dark-blue); 
 }
+
 
 /* tarjetas destinos */
 .txt-dest {
@@ -284,7 +287,7 @@ nav ul a {
 
 /* cuadrados de porque viajar */
 .viajar-box {
- margin: 0 auto;
+    margin: 0 auto;
     background-color: #f4f8fb;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
@@ -356,13 +359,146 @@ nav ul a {
   text-align: left;
 }
 
+
 /* pre footer */
-/*.img-pre-footer {
-    background-image: url(imagenes/imagenes_main/prefooter.jpeg);
+.img-pre-footer {
+    background-color: #1b5cff;
+    width: 100%;
+    height: 16vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-} */
+    font-family: "Inter";
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-sub {
+    margin-left: 100px;
+    margin-top: 40px;
+    background-color: #f4f8fb;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    align-items: left;
+    width: calc(100% - 140px); 
+    max-width: 400px;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.item-sub-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  width: 100%;
+}
+
+.item-sub {
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  flex: 1;
+  padding: 10px;
+  gap: 15px; 
+
+}
+
+.item-sub strong {
+    font-size: 0.9rem;
+    color: var(--text-gray);
+    margin-bottom: 2px;
+    font-family: "inter";
+}
+
+.item-sub span {
+    font-size: 0.85rem;
+    color: var(--sec-text-gray); 
+    font-family: "inter";
+}
+
+.icono-sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px; 
+  height: 50px;
+  border: 1.5px solid var(--bg-gray); 
+  border-radius: 12px; 
+  color: var(--main-blue); 
+  font-size: 1.4rem;
+  flex-shrink: 0;
+}
+.texto-sub {
+  display: flex;
+  text-align: left;
+}
+
+.box-btn-sub {
+    margin-left: 68%;
+    width: 100%;
+    background-color: #f4f8fb;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    width: calc(100% - 140px); 
+    max-width: 400px;
+    margin-top: -90px; 
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.btn-sub-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  width: 100%;
+}
+
+.item-btn {
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  flex: 1;
+  padding: 10px;
+  gap: 15px; 
+
+}
+
+.item-btn span {
+    font-size: 0.85rem;
+    color: var(--sec-text-gray); 
+    font-family: "inter";
+}
+
+.text-btn-sub {
+  display: flex;
+  text-align: left;
+}
+
+.subscripcion {
+    background-color: var(--orange); 
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 15px 30px;padding: 15px 30px;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* tarjetas destinos */
 .txt-der {
     display: flex;
     flex-direction: column;
