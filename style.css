@@ -20,7 +20,7 @@ body {
     align-items: center;
     justify-content: space-between;
     max-height: 5rem;
-    margin: 1.5rem 4rem 1.5rem 4rem;
+    margin: .5rem 4rem .5rem 4rem;
 }
 
 .nav-logo-text {
@@ -73,8 +73,9 @@ nav ul a {
 }
 
 .img-hero {
-    background-image: url(imagenes/imagenes\ main/Grecia.jpg);
+    background-image: linear-gradient(to right, rgba(255, 255, 255, .9) 0%,rgba(255, 255, 255, .5)25%,rgba(255, 255, 255, .5) 50%, rgba(255, 255, 255, 0)90%), url(imagenes/imagenes_main/Grecia.jpg);
     width: 100%;
+    height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Inter";
@@ -88,17 +89,18 @@ nav ul a {
     margin-top: 0px; 
     margin-bottom: 30px;
     font-family: "Dancing Script", cursive;
-    font-size: 4rem;
+    font-size: 6rem;
 
     color: var(--main-blue);
 }
 
 .tit {
     margin-left: 100px;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: bold;
     margin-bottom: 0px;
     line-height: 1;
+    color: var(--dark-blue);
 }
     
 .parr {
