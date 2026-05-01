@@ -704,7 +704,7 @@ footer {
 }
 
 
-/*cancun*/
+/*cancun y paris*/
 .detalle-paquete-container {
     display: flex;
     justify-content: space-between;
@@ -925,4 +925,9 @@ footer {
     color: #ffffff;
     border-color: var(--main-blue);
     cursor: default;
+}
+
+
+.color-main {
+    color: var(--main-blue)
 }
